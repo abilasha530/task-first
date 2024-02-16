@@ -1,0 +1,141 @@
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 769px) {
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        flex-basis:50%;
+    }
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        flex-basis:50%;
+    }
+}
+
+@media only screen and (max-device-width: 767px) {
+    .flex-container  .one{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        order: 1;
+    }
+    .flex-container .two{
+        float: none;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        order: 0;
+    }
+    .flex-container .three{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        order: 2;
+    }
+    .flex-container .four{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        order: 3;
+    }
+    .flex-container .five{
+        display: flex;
+        flex-direction: column;
+        order: 5;
+        width: 100%;
+    }
+    .flex-container .six{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        order: 4;
+    }
+}
+
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+   /* justify-content: center;
+    justify-content: center;*/
+    margin-left: 10px;
+    align-content: center;
+   /* flex: space-between;
+    gap:100px;*/
+    padding-top: 10px;
+}
+.para{
+     width: 70%; 
+     align-items: center;
+     padding: 10%;
+
+}
+.para2{
+
+     width: 70%; 
+     align-items: center;
+     padding: 10%;
+
+     
+}
+.para3{
+
+     width: 70%; 
+     align-items: center;
+     padding: 10%;
+
+}
+.one{
+    width: 50%;
+}
+
+
+
+img{
+    height: auto;
+    width: 100%;
+}  
+.two{
+    width: 50%;
+}
+.three{
+    width: 50%;
+}
+.four{
+    width: 50%;
+}
+.five{
+    width: 50%;
+}
+.six{
+    width: 50%;
+}
+
+h2{
+    margin: 25px;
+}
+p{
+    margin: 25px;
+}
+ul{
+    margin: 25px;
+}
+
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout 
+  @media (max-width: 212px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }*/
+  
